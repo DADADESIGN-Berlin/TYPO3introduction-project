@@ -1,0 +1,16 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:gridelements/Configuration/TypoScript/setup.typoscript">
+
+
+#################
+#### LIBRARY ####
+#################
+#<INCLUDE_TYPOSCRIPT: source="DIR: ./Library" extensions="ts">
+
+
+######################
+#### GRIDELEMENTS ####
+######################
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:dada_typo3introduction_project/Resources/Private/Gridelements/" extensions="ts">

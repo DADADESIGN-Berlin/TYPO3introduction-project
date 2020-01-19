@@ -1,0 +1,22 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+
+<f:switch expression="{data.flexform_behaviour}">
+	<f:case value="1">
+		<f:variable name="Col1" value="col-lg-6" />
+		<f:variable name="Col2" value="col-lg-6" />
+	</f:case>
+	<f:case value="2">
+		<f:variable name="Col1" value="col-lg-8" />
+		<f:variable name="Col2" value="col-lg-4" />
+	</f:case>
+</f:switch>
+
+<div class="row">
+	<div class="{Col1}">
+		<f:format.raw>{data.tx_gridelements_view_column_100}</f:format.raw>
+	</div>
+	<div class="{Col2}">
+		<f:format.raw>{data.tx_gridelements_view_column_200}</f:format.raw>
+	</div>
+</div>
+
