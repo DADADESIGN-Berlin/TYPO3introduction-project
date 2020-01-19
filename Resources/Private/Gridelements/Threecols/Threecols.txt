@@ -1,0 +1,30 @@
+tx_gridelements.setup.threecols {
+	title = 3-Spalter
+	description = 3-Spalter
+	icon = EXT:sitepackage/Resources/Public/Images/Gridelements.gif
+	topLevelLayout = 0
+	flexformDS = FILE:EXT:sitepackage/Resources/Private/Gridelements/Threecols/Threecols.xml
+
+	config{
+		colCount = 3
+		rowCount = 1
+		rows {
+			1{
+				columns {
+					1 {
+						name = 3-Spalter
+						colPos = 100
+					}
+					2 {
+						name = 3-Spalter
+						colPos = 200
+					}
+					3 {
+						name = 3-Spalter
+						colPos = 300
+					}
+				}
+			}
+		}
+	}
+}

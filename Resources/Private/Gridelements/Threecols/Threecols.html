@@ -1,0 +1,43 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:debug>{_all}</f:debug>
+<f:switch expression="{data.flexform_behaviour}">
+	<f:case value="1">
+		<f:variable name="Col1" value="col-lg-4" />
+		<f:variable name="Col2" value="col-lg-4" />
+		<f:variable name="Col3" value="col-lg-4" />
+	</f:case>
+	<f:case value="2">
+		<f:variable name="Col1" value="col-md-6 col-lg-4" />
+		<f:variable name="Col2" value="col-md-6 col-lg-4" />
+		<f:variable name="Col3" value="col-md-6 col-lg-4" />
+	</f:case>
+</f:switch>
+
+<f:variable name="longestColumn" value="0" />
+<f:for each="{data.tx_gridelements_view_raw_columns}" as="column">
+	<f:variable name="columnLength" value="{f:count(subject: column)}" />
+	<f:if condition="{columnLength} > {longestColumn}">
+		<f:variable name="longestColumn" value="{columnLength}" />
+	</f:if>
+</f:for>
+<f:for each="{data.tx_gridelements_view_raw_columns}" as="column" iteration="iterator">
+
+<f:debug>{column.{iterator.index}.uid}</f:debug>
+
+</f:for>
+<div class="row">
+
+	<div class="{Col1}">
+		<f:format.raw>{data.tx_gridelements_view_column_100}</f:format.raw>
+	</div>
+	<div class="{Col2}">
+		<f:format.raw>{data.tx_gridelements_view_column_200}</f:format.raw>
+	</div>
+	<div class="{Col3}">
+		<f:format.raw>{data.tx_gridelements_view_column_300}</f:format.raw>
+	</div>
+</div>
+
+<f:for each="{data.tx_gridelements_view_children}" as="item">
+	{item.header}
+</f:for>

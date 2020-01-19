@@ -1,0 +1,26 @@
+tx_gridelements.setup.twocols {
+	title = 2-Spalter
+	description = 2-Spalter
+	icon = EXT:sitepackage/Resources/Public/Images/Gridelements.gif
+	topLevelLayout = 0
+	flexformDS = FILE:EXT:sitepackage/Resources/Private/Gridelements/Twocols/Twocols.xml
+
+	config{
+		colCount = 2
+		rowCount = 1
+		rows {
+			1{
+				columns {
+					1 {
+						name = 2-Spalter
+						colPos = 100
+					}
+					2 {
+						name = 2-Spalter
+						colPos = 200
+					}
+				}
+			}
+		}
+	}
+}
