@@ -1,0 +1,34 @@
+#
+# PageTS for Sitepackage
+#
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:sitepackage/Configuration/TsConfig/Page/RTE.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:sitepackage/Configuration/TsConfig/Page/TCEFORM.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:sitepackage/Configuration/TsConfig/Page/TCEMAIN.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:sitepackage/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts.tsconfig">
+
+lib.gridelements.defaultGridSetup.dataProcessing {
+    10 = GridElementsTeam\Gridelements\DataProcessing\GridChildrenProcessor
+    10 {
+        default {
+            as = children
+            # Default options of the grid children processor
+            # Change them according to the needs of your layout
+            # Read more about it in the TypoScript section of the manual
+            options {
+                # sortingDirection = ASC
+                # sortingField = sorting
+                # recursive = 0
+                # resolveFlexFormData = 1
+                # resolveBackendLayout = 1
+                respectColumns = 1
+                respectRows = 1
+            }
+        }
+    }
+}
+
+######################
+#### GRIDELEMENTS ####
+######################
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:dada_typo3introduction_project/Resources/Private/Gridelements/" extensions="txt">
+
