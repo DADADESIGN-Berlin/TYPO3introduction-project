@@ -1,7 +1,7 @@
 tx_gridelements.setup.onecol {
 	title = 1-Spalter
 	description = 1-Spalter
-	icon = EXT:dada_typo3introduction_project/Resources/Public/Images/Gridelements.gif
+	icon = EXT:sitepackage/Resources/Public/Images/Gridelements.gif
 	topLevelLayout = 0
 	config{
 		colCount = 1

@@ -1,9 +1,9 @@
 tx_gridelements.setup.threecols {
 	title = 3-Spalter
 	description = 3-Spalter
-	icon = EXT:dada_typo3introduction_project/Resources/Public/Images/Gridelements.gif
+	icon = EXT:sitepackage/Resources/Public/Images/Gridelements.gif
 	topLevelLayout = 0
-	flexformDS = FILE:EXT:dada_typo3introduction_project/Resources/Private/Gridelements/Threecols/Threecols.xml
+	flexformDS = FILE:EXT:sitepackage/Resources/Private/Gridelements/Threecols/Threecols.xml
 
 	config{
 		colCount = 3
@@ -14,14 +14,23 @@ tx_gridelements.setup.threecols {
 					1 {
 						name = 3-Spalter
 						colPos = 100
+						disallowed {
+						tx_gridelements_backend_layout = onecol,threecols,twocols
+						}
 					}
 					2 {
 						name = 3-Spalter
 						colPos = 200
+						disallowed {
+						tx_gridelements_backend_layout = onecol,threecols,twocols
+						}
 					}
 					3 {
 						name = 3-Spalter
 						colPos = 300
+						disallowed {
+						tx_gridelements_backend_layout = onecol,threecols,twocols
+						}
 					}
 				}
 			}

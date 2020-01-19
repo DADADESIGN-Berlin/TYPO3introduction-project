@@ -1,9 +1,9 @@
 tx_gridelements.setup.twocols {
 	title = 2-Spalter
 	description = 2-Spalter
-	icon = EXT:dada_typo3introduction_project/Resources/Public/Images/Gridelements.gif
+	icon = EXT:sitepackage/Resources/Public/Images/Gridelements.gif
 	topLevelLayout = 0
-	flexformDS = FILE:EXT:dada_typo3introduction_project/Resources/Private/Gridelements/Twocols/Twocols.xml
+	flexformDS = FILE:EXT:sitepackage/Resources/Private/Gridelements/Twocols/Twocols.xml
 
 	config{
 		colCount = 2
@@ -14,10 +14,16 @@ tx_gridelements.setup.twocols {
 					1 {
 						name = 2-Spalter
 						colPos = 100
+						disallowed {
+						tx_gridelements_backend_layout = onecol,threecols,twocols
+						}
 					}
 					2 {
 						name = 2-Spalter
 						colPos = 200
+						disallowed {
+						tx_gridelements_backend_layout = onecol,threecols,twocols
+						}
 					}
 				}
 			}
