@@ -14,3 +14,21 @@
 #### GRIDELEMENTS ####
 ######################
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:dada_typo3introduction_project/Resources/Private/Gridelements/" extensions="ts">
+
+
+
+##############
+#### PAGE ####
+##############
+page = PAGE
+page {
+    typeNum = 0
+
+    10 = FLUIDTEMPLATE
+    10 {
+
+        includeCSS {
+            bootstrap_css = https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css
+        }
+    }
+}
