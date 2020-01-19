@@ -3,6 +3,6 @@
 #############
 RTE {
     default {
-        preset = sitepackage
+        preset = dada_typo3introduction_project
     }
 }

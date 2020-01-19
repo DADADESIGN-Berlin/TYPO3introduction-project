@@ -1,9 +1,9 @@
 tx_gridelements.setup.twocols {
 	title = 2-Spalter
 	description = 2-Spalter
-	icon = EXT:sitepackage/Resources/Public/Images/Gridelements.gif
+	icon = EXT:dada_typo3introduction_project/Resources/Public/Images/Gridelements.gif
 	topLevelLayout = 0
-	flexformDS = FILE:EXT:sitepackage/Resources/Private/Gridelements/Twocols/Twocols.xml
+	flexformDS = FILE:EXT:dada_typo3introduction_project/Resources/Private/Gridelements/Twocols/Twocols.xml
 
 	config{
 		colCount = 2
