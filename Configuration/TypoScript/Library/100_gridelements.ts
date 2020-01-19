@@ -8,7 +8,7 @@ tt_content.gridelements_pi1.20.10.setup {
 	header {
         cObject = FLUIDTEMPLATE
         cObject {
-            file =  EXT:sitepackage/Resources/Gridelements/Resources/Private/Templates/Header.html
+            file =  EXT:dada_typo3introduction_project/Resources/Gridelements/Resources/Private/Templates/Header.html
             dataProcessing {
                 10 = TYPO3\CMS\Frontend\DataProcessing\DatabaseQueryProcessor
                 10 {
@@ -37,7 +37,7 @@ tt_content.gridelements_pi1.20.10.setup {
 	sourceset {
         cObject = FLUIDTEMPLATE
         cObject {
-            file =  EXT:sitepackage/Resources/Gridelements/Resources/Private/Templates/Sourceset.html
+            file =  EXT:dada_typo3introduction_project/Resources/Gridelements/Resources/Private/Templates/Sourceset.html
         }
     }
 
@@ -46,7 +46,7 @@ tt_content.gridelements_pi1.20.10.setup {
 	addresse {
        cObject = FLUIDTEMPLATE
         cObject {
-            file =  EXT:sitepackage/Resources/Gridelements/Resources/Private/Templates/Addresse.html
+            file =  EXT:dada_typo3introduction_project/Resources/Gridelements/Resources/Private/Templates/Addresse.html
         }
     }
 
@@ -54,7 +54,7 @@ tt_content.gridelements_pi1.20.10.setup {
 	section {
         cObject = FLUIDTEMPLATE
         cObject {
-            file =  EXT:sitepackage/Resources/Gridelements/Resources/Private/Templates/Section.html
+            file =  EXT:dada_typo3introduction_project/Resources/Gridelements/Resources/Private/Templates/Section.html
         }
     }
 
@@ -63,7 +63,7 @@ tt_content.gridelements_pi1.20.10.setup {
 	videoheader {
         cObject = FLUIDTEMPLATE
         cObject {
-            file =  EXT:sitepackage/Resources/Gridelements/Resources/Private/Templates/Videoheader.html
+            file =  EXT:dada_typo3introduction_project/Resources/Gridelements/Resources/Private/Templates/Videoheader.html
         }
     }
 
@@ -71,7 +71,7 @@ tt_content.gridelements_pi1.20.10.setup {
 	twocols {
         cObject = FLUIDTEMPLATE
         cObject {
-            file =  EXT:sitepackage/Resources/Gridelements/Resources/Private/Templates/Twocols.html
+            file =  EXT:dada_typo3introduction_project/Resources/Gridelements/Resources/Private/Templates/Twocols.html
         }
     }
 
@@ -80,7 +80,7 @@ tt_content.gridelements_pi1.20.10.setup {
 	threecols {
         cObject = FLUIDTEMPLATE
         cObject {
-            file =  EXT:sitepackage/Resources/Gridelements/Resources/Private/Templates/Threecols.html
+            file =  EXT:dada_typo3introduction_project/Resources/Gridelements/Resources/Private/Templates/Threecols.html
         }
     }
 
@@ -88,14 +88,14 @@ tt_content.gridelements_pi1.20.10.setup {
 	imagetabs {
         cObject = FLUIDTEMPLATE
         cObject {
-            file =  EXT:sitepackage/Resources/Gridelements/Resources/Private/Templates/Imagetabs.html
+            file =  EXT:dada_typo3introduction_project/Resources/Gridelements/Resources/Private/Templates/Imagetabs.html
         }
     }
 	accordionplus < lib.gridelements.defaultGridSetup
 	accordionplus {
         cObject = FLUIDTEMPLATE
         cObject {
-            file =  EXT:sitepackage/Resources/Gridelements/Resources/Private/Templates/Accordionplus.html
+            file =  EXT:dada_typo3introduction_project/Resources/Gridelements/Resources/Private/Templates/Accordionplus.html
             dataProcessing {
                 10 = TYPO3\CMS\Frontend\DataProcessing\DatabaseQueryProcessor
                 10 {
@@ -121,21 +121,21 @@ tt_content.gridelements_pi1.20.10.setup {
 	tabsplus {
         cObject = FLUIDTEMPLATE
         cObject {
-            file =  EXT:sitepackage/Resources/Gridelements/Resources/Private/Templates/Tabsplus.html
+            file =  EXT:dada_typo3introduction_project/Resources/Gridelements/Resources/Private/Templates/Tabsplus.html
         }
     }
 	disclaimerform < lib.gridelements.defaultGridSetup
 	disclaimerform {
         cObject = FLUIDTEMPLATE
         cObject {
-            file =  EXT:sitepackage/Resources/Gridelements/Resources/Private/Templates/Disclaimerform.html
+            file =  EXT:dada_typo3introduction_project/Resources/Gridelements/Resources/Private/Templates/Disclaimerform.html
         }
     }
 	vbrdisclaimerform < lib.gridelements.defaultGridSetup
 	vbrdisclaimerform {
         cObject = FLUIDTEMPLATE
         cObject {
-            file =  EXT:sitepackage/Resources/Gridelements/Resources/Private/Templates/Vbrdisclaimerform.html
+            file =  EXT:dada_typo3introduction_project/Resources/Gridelements/Resources/Private/Templates/Vbrdisclaimerform.html
         }
     }
 
@@ -144,7 +144,7 @@ tt_content.gridelements_pi1.20.10.setup {
     srcset {
         cObject = FLUIDTEMPLATE
         cObject {
-            file = EXT:sitepackage/Resources/Gridelements/Resources/Private/Templates/Srcset.html
+            file = EXT:dada_typo3introduction_project/Resources/Gridelements/Resources/Private/Templates/Srcset.html
             dataProcessing {
                 10 = TYPO3\CMS\Frontend\DataProcessing\DatabaseQueryProcessor
                 10 {

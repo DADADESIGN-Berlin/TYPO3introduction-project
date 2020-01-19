@@ -1,10 +1,10 @@
 #
-# PageTS for Sitepackage
+# PageTS for dada_typo3introduction_project
 #
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:sitepackage/Configuration/TsConfig/Page/RTE.tsconfig">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:sitepackage/Configuration/TsConfig/Page/TCEFORM.tsconfig">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:sitepackage/Configuration/TsConfig/Page/TCEMAIN.tsconfig">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:sitepackage/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:dada_typo3introduction_project/Configuration/TsConfig/Page/RTE.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:dada_typo3introduction_project/Configuration/TsConfig/Page/TCEFORM.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:dada_typo3introduction_project/Configuration/TsConfig/Page/TCEMAIN.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:dada_typo3introduction_project/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts.tsconfig">
 
 lib.gridelements.defaultGridSetup.dataProcessing {
     10 = GridElementsTeam\Gridelements\DataProcessing\GridChildrenProcessor
