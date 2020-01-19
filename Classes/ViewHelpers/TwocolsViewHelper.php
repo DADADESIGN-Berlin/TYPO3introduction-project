@@ -1,6 +1,6 @@
 <?php
 
-    namespace Dadadesign\Sitepackage\ViewHelpers;
+    namespace DADA\DadaTypo3introductionProject\ViewHelpers;
 
     use TYPO3Fluid\Fluid\Core\ViewHelper\AbstractViewHelper;
 
