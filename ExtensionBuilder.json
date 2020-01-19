@@ -1,0 +1,39 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 9.5.0-9.5.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "9.5.0-9.5.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "dada_typo3introduction_project",
+        "name": "TYPO3introduction-project",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "",
+                "email": "mail@dadadesign.de",
+                "name": "Christian Sch\u00f6pp",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [],
+        "vendorName": "DADA"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2020-01-19 02:29",
+        "extension_builder_version": "9.10.0",
+        "be_user": " (1)"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "dada/dada-typo3introduction-project",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "authors": [
+        {
+            "name": "Christian Sch\u00f6pp",
+            "role": "Developer"
+        }
+    ],
+    "version": "1.0.0",
+    "require": {
+        "typo3/cms-core": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "DADA\\DadaTypo3introductionProject\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DADA\\DadaTypo3introductionProject\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "dada_typo3introduction_project": "self.version",
+        "typo3-ter/dada-typo3introduction-project": "self.version"
+    }
+}
