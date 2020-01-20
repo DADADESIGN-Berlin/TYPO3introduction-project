@@ -1,6 +1,6 @@
-#
-# TCEMAIN
-#
+#################
+#### TCEMAIN ####
+#################
 TCEMAIN {
     table{
         pages {

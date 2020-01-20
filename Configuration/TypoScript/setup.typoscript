@@ -16,7 +16,6 @@
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:dada_typo3introduction_project/Resources/Private/Gridelements/" extensions="ts">
 
 
-
 ##############
 #### PAGE ####
 ##############
@@ -32,6 +31,11 @@ page {
         }
     }
 }
+
+
+################
+#### CONFIG ####
+################
 
 config {
     contentObjectExceptionHandler = 0
